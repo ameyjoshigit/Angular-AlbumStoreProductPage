@@ -1,9 +1,17 @@
-p {
+.tracklisting {
 	font-size: 16px;
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	padding-top: 10 px;
 }
 
-img {
-	width: 100%;
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: block;
+	line-height: 30px;
+}
+
+button {
+	line-height: 1;	
 }
