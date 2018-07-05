@@ -13,7 +13,8 @@ import { ProductService } from './product.service';
 
 const appRoutes: Routes= [
   { path: 'products', components: ProductListComponent },
-  { path: 'product/:id', components: ProductPageComponent }
+  { path: 'product/:id', components: ProductPageComponent },
+  { path: '', redirectTo: 'products', pathMatch: 'full' }
 ];
 
 @NgModule({
